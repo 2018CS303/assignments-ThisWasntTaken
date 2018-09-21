@@ -105,12 +105,4 @@ The instructor can monitor the containers in many ways.
             done < $file
         ```
 - You can either delete all users or user by name using ` sh deleteContainers.sh -x`.
-
-## Note: To ensure that the users cannot access others users' containers, we need to do the following:
-Add the following lines to every user's .bashrc
-```
-docker start -ai <name>
-exit
-```
-When the user connectes to the system, the user will directly connect to the docker container. Now, when he exits the container, the next command "exit" forces the user to exit the system itself ,without a chance to access other containers.
     
