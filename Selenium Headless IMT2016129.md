@@ -2,7 +2,7 @@
 ```
 pip install -U selenium
 ```
-2. Download chromedriver from `https://sites.google.com/a/chromium.org/chromedriver/downloads`. This will enable Selenium to run all the test cases with browser. Make sure that `chromedriver` is in the executable path. The following code deomstrates the usage :
+2. Download chromedriver from `https://sites.google.com/a/chromium.org/chromedriver/downloads`. This will enable Selenium to run all the test cases with browser. Make sure that `chromedriver` is in the executable path. The following code demonstrates the usage :
 ```
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
